@@ -22,22 +22,3 @@ int partitionString(char * s){
     
 
 }
-
-// int partitionString(char * s){
-//     int len = strlen(s);
-//     int ans = 0;
-//     for (int i = 0 ; i < len ; i++){
-//         bool list[123] = {0};
-//         while(i < len){
-//             if (list[s[i]]){
-//                 i--;
-//                 break;
-//             } else {
-//                 list[s[i]] = true;
-//                 i++;
-//             }
-//         }
-//         ans++;
-//     }
-//     return ans;
-// }
